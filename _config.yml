@@ -6,15 +6,16 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 theme: null
-
-remote_theme             : "daattali/beautiful-jekyll"
+remote_theme: daattali/beautiful-jekyll@latest
+plugins:
+  - jekyll-remote-theme
 
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Faveo Installation Guide"
-title_separator          : "-"
+# title_separator          : "-"
 subtitle                 : "By Ladybird Web Solution"
 name                     : &name "Ladybird Web Solution Pvt Ltd" # &name is a YAML anchor which can be *referenced later
 description              : &description "Install Faveo in minutes with our awesome documentation"
