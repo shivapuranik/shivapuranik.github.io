@@ -5,9 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme             : "mmistakes/minimal-mistakes"
+remote_theme             : "remote_theme: daattali/beautiful-jekyll"
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -178,89 +178,89 @@ kramdown:
 
 
 # Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   docs:
+#     output: true
+#     permalink: /:collection/:path/
+#   recipes:
+#     output: true
+#     permalink: /:collection/:path/
+#   pets:
+#     output: true
+#     permalink: /:collection/:path/
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:path/
 
 
 # Defaults
-defaults:
+# defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      sidebar:
-       nav: "docs"
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
+  #     sidebar:
+  #      nav: "docs"
   # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-      sidebar:
-        nav: "docs"
+  # - scope:
+  #     path: "_pages"
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     sidebar:
+  #       nav: "docs"
   # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      sidebar:
-        nav: "docs"
+  # - scope:
+  #     path: ""
+  #     type: docs
+  #   values:
+  #     layout: single
+  #     read_time: false
+  #     author_profile: false
+  #     share: false
+  #     comments: false
+  #     sidebar:
+  #       nav: "docs"
   # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: false
-      share: true
-      comments: true
-      sidebar:
-        nav: "docs"
+  # - scope:
+  #     path: ""
+  #     type: recipes
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     share: true
+  #     comments: true
+  #     sidebar:
+  #       nav: "docs"
   # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: false
-      share: true
-      comment: true
-      sidebar:
-        nav: "docs"
+  # - scope:
+  #     path: ""
+  #     type: pets
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     share: true
+  #     comment: true
+  #     sidebar:
+  #       nav: "docs"
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
-      sidebar:
-        nav: "docs"
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     share: true
+  #     sidebar:
+  #       nav: "docs"
 
 
 # Sass/SCSS
