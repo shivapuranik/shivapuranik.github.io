@@ -19,10 +19,10 @@ color_scheme: light
 # Navigation structure
 # If you use a _pages or _docs folder, Just the Docs will build nav automatically.
 # You can also define explicit order like this:
-nav_order: 1
-nav_external_links:
-  - title: GitHub Repository
-    url: https://github.com/shivapuranik/shivapuranik.github.io
+# nav_order: 1
+# nav_external_links:
+#   - title: GitHub Repository
+#     url: https://github.com/shivapuranik/shivapuranik.github.io
 
 # Footer content (optional)
 footer_content: "Copyright &copy; 2025 Your Name. Powered by Just the Docs."
