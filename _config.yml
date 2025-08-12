@@ -22,7 +22,7 @@ color_scheme: light
 nav_order: 1
 nav_external_links:
   - title: GitHub Repository
-    url: https://github.com/shivapuranik.github.io/
+    url: https://github.com/shivapuranik/shivapuranik.github.io
 
 # Footer content (optional)
 footer_content: "Copyright &copy; 2025 Your Name. Powered by Just the Docs."
