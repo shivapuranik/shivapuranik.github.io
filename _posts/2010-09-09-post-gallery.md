@@ -99,10 +99,10 @@ gallery:
 And then drop-in the gallery include --- gallery `caption` is optional.
 
 ```liquid
-{% raw %}{% include gallery caption="This is a sample gallery with **Markdown support**." %}{% endraw %}
+<!-- {% raw %}{% include gallery caption="This is a sample gallery with **Markdown support**." %}{% endraw %} -->
 ```
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+<!-- {% include gallery caption="This is a sample gallery with **Markdown support**." %} -->
 
 This is some text after the gallery just to make sure that everything aligns properly.
 
