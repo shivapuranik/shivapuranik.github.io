@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /docs if hosted at example.com/docs
 url: "https://shivapuranik.github.io" # your site's URL
 
 # Build settings
-theme: "just-the-docs"
+theme: "null"
 
 # Enable search
 search_enabled: true
